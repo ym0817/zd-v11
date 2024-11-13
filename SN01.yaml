@@ -1,0 +1,24 @@
+path: E:\\Work\\AIADC\\Trains_V1\\Recipe
+train: Data\\SN01\\images\\train
+val: Data\\SN01\\images\\val
+test: # test images (optional)
+
+# Classes
+names:
+  0: Particle
+  1: Missing
+  2: Residue
+  3: Bridge
+  4: Tiny
+  5: Bubble
+  6: Crystal
+  7: Discolor
+  8: Scratch
+  9: COP
+  10: Grain
+  11: Peeling
+  12: W Puddle
+
+
+
+
