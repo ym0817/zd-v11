@@ -232,7 +232,7 @@ if __name__ == '__main__':
     best_model = YOLO(best_weight)
     best_model.export(format='onnx', opset=11)
 
-    evaluation(best_weight, data_path, batch_size, img_size)
+    evaluation(best_model, data_path, batch_size, img_size)
     shutil.copytree(temp_modeldir, backup_dir)
     over_message()
 
